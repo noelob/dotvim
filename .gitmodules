@@ -10,3 +10,6 @@
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = https://github.com/fatih/molokai.git
+[submodule "bundle/splitjoin.vim"]
+	path = bundle/splitjoin.vim
+	url = https://github.com/AndrewRadev/splitjoin.vim.git
