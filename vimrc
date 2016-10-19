@@ -24,6 +24,7 @@ Plugin 'Shougo/neocomplete'
 Plugin 'freitass/todo.txt-vim'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'tommcdo/vim-exchange'
 
 call vundle#end()            " required
 
@@ -114,6 +115,11 @@ nnoremap Y y$
 " Enter automatically into the files directory
 autocmd BufEnter * silent! lcd %:p:h
 
+" Source the vimrc file after saving it
+nmap <leader>v :vsplit $MYVIMRC<CR>
+if has("autocmd")
+  autocmd bufwritepost vimrc source $MYVIMRC
+endif
 
 """""""""""""""""""""
 "      Plugins      "
