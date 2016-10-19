@@ -4,5 +4,5 @@ Get set up with the following commands:
     git submodule init
     git submodule update
 
-Then open vim and run `:PluginInstal`
+Then open vim and run `:PluginInstall`
 
