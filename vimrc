@@ -200,3 +200,8 @@ endfunction
 " Neocomplete
 let g:neocomplete#enable_at_startup = 0
 
+" Fugitive
+" Automatically close buffers of Git objects
+autocmd BufReadPost fugitive://* set bufhidden=delete
+" Display Git branch on status line
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
