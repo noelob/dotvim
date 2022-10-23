@@ -6,6 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'                  " Plugin management
+Plugin 'elixir-editors/vim-elixir'             " Elixir support
 Plugin 'scrooloose/nerdtree'                   " Tree explorer
 Plugin 'fatih/vim-go'                          " Go development
 Plugin 'fatih/molokai'                         " Colour scheme
@@ -205,3 +206,7 @@ let g:neocomplete#enable_at_startup = 0
 autocmd BufReadPost fugitive://* set bufhidden=delete
 " Display Git branch on status line
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
+" Workaround for elixir file detection
+" https://github.com/elixir-editors/vim-elixir/issues/475
+au BufRead,BufNewFile *.ex,*.exs set filetype=elixir
