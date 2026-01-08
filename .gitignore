@@ -1,0 +1,15 @@
+/.idea
+/bundle/ctrlp.vim
+/bundle/molokai/
+/bundle/neocomplete/
+/bundle/nerdcommenter/
+/bundle/nerdtree/
+/bundle/splitjoin.vim/
+/bundle/tagbar/
+/bundle/todo.txt-vim/
+/bundle/ultisnips/
+/bundle/vim-elixir/
+/bundle/vim-exchange/
+/bundle/vim-fugitive/
+/bundle/vim-go/
+/bundle/vim-numbertoggle/
