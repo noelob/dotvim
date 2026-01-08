@@ -7,7 +7,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'                  " Plugin management
 Plugin 'elixir-editors/vim-elixir'             " Elixir support
-Plugin 'scrooloose/nerdtree'                   " Tree explorer
+Plugin 'preservim/nerdtree'                    " Tree explorer
 Plugin 'fatih/vim-go'                          " Go development
 Plugin 'fatih/molokai'                         " Colour scheme
 Plugin 'AndrewRadev/splitjoin.vim'             " Simplifies the transition between multiline and single-line code
