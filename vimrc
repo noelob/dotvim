@@ -6,7 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'                  " Plugin management
-"Plugin 'elixir-editors/vim-elixir'             " Elixir support
+Plugin 'elixir-editors/vim-elixir'             " Elixir support
 Plugin 'scrooloose/nerdtree'                   " Tree explorer
 Plugin 'fatih/vim-go'                          " Go development
 Plugin 'fatih/molokai'                         " Colour scheme
